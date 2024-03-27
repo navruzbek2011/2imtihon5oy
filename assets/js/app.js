@@ -1,0 +1,54 @@
+const inputEl = document.querySelector(".header_input");
+const btnEl = document.querySelector(".header_btn2");
+const divEl = document.querySelector(".dictionary1_div");
+const div2El = document.querySelector(".dictionary2_div");
+const div3El = document.querySelector(".dictionary3_div");
+const div4El = document.querySelector(".dictionary4_div");
+const div5El = document.querySelector(".dictionary5_div");
+const div6El = document.querySelector(".dictionary6_div");
+const div7El = document.querySelector(".dictionary7_div");
+const div8El = document.querySelector(".dictionary8_div");
+const div9El = document.querySelector(".dictionary9_div");
+const div10El = document.querySelector(".dictionary10_div");
+const div11El = document.querySelector(".dictionary11_div");
+const div12El = document.querySelector(".dictionary12_div");
+const div13El = document.querySelector(".dictionary13_div");
+const div14El = document.querySelector(".dictionary14_div");
+const div15El = document.querySelector(".dictionary15_div");
+const div16El = document.querySelector(".dictionary16_div");
+const div17El = document.querySelector(".dictionary17_div");
+const div18El = document.querySelector(".dictionary18_div");
+const div19El = document.querySelector(".dictionary19_div");
+const div20El = document.querySelector(".dictionary20_div");
+const div21El = document.querySelector(".dictionary21_div");
+const dictionary1_div_imgEl = document.querySelector(".dictionary1_div_img");
+const btn2El = document.querySelector(".header_btn2");
+const pEl = document.querySelector(".dictionary2");
+btnEl.addEventListener('click', () => {
+    inputEl.value = ' '
+    divEl.style.display = "none";
+    div2El.style.display = "none";
+    div3El.style.display = "none";
+    div4El.style.display = "none";
+    div5El.style.display = "none";
+    div6El.style.display = "none";
+    div7El.style.display = "none";
+    div8El.style.display = "none";
+    div9El.style.display = "none";
+    div10El.style.display = "none";
+    div11El.style.display = "none";
+    div12El.style.display = "none";
+    div13El.style.display = "none";
+    div14El.style.display = "none";
+    div15El.style.display = "none";
+    div16El.style.display = "none";
+    div17El.style.display = "none";
+    div18El.style.display = "none";
+    div19El.style.display = "none";
+    div20El.style.display = "none";
+    div21El.style.display = "none";
+});
+
+if (inputEl === divEl) {
+    divEl.style.display = "block"
+}

@@ -1,0 +1,547 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.conatiner {
+  display: flex;
+  gap: 5px;
+  position: relative;
+}
+
+.header_input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  overflow: none;
+  top: 200px;
+  left: 600px;
+  position: absolute;
+}
+
+.header_btn {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  top: 200px;
+  left: 810px;
+  position: absolute;
+}
+.header_btn:hover {
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.header_btn2 {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  top: 200px;
+  left: 920px;
+  position: absolute;
+}
+.header_btn2:hover {
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.dictionary1_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary1_div .dictionary1_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary1_div .dictionary1_div_text {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary1_div .dictionary1_div_text2 {
+  width: 460px;
+  margin-left: -10px;
+}
+
+.dictionary2_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary2_div .dictionary2_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary2_div .dictionary2_div_text {
+  margin-left: 110px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary2_div .dictionary2_div_text2 {
+  width: 460px;
+  margin-left: -10px;
+}
+
+.dictionary3_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary3_div .dictionary3_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary3_div .dictionary3_div_text {
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary3_div .dictionary3_div_text2 {
+  width: 480px;
+  margin-left: -10px;
+}
+
+.dictionary4_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary4_div .dictionary4_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary4_div .dictionary4_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary4_div .dictionary4_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary5_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary5_div .dictionary5_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary5_div .dictionary5_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary5_div .dictionary5_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary6_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary6_div .dictionary6_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary6_div .dictionary6_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary6_div .dictionary6_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary7_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary7_div .dictionary7_div_img {
+  width: 50%;
+  height: 70%;
+  border-radius: 5px;
+}
+.dictionary7_div .dictionary7_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary7_div .dictionary7_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary8_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary8_div .dictionary8_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary8_div .dictionary8_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary8_div .dictionary8_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary9_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary9_div .dictionary9_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary9_div .dictionary9_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary9_div .dictionary9_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary10_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary10_div .dictionary10_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary10_div .dictionary10_div_text {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary10_div .dictionary10_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary11_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary11_div .dictionary11_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary11_div .dictionary11_div_text {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary11_div .dictionary11_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary12_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary12_div .dictionary12_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary12_div .dictionary12_div_text {
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary12_div .dictionary12_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary12_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+}
+.dictionary12_div .dictionary12_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary12_div .dictionary12_div_text {
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary12_div .dictionary12_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary13_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary13_div .dictionary13_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary13_div .dictionary13_div_text {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary13_div .dictionary13_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary14_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary14_div .dictionary14_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary14_div .dictionary14_div_text {
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary14_div .dictionary14_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary15_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary15_div .dictionary15_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary15_div .dictionary15_div_text {
+  margin-left: 120px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary15_div .dictionary15_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary16_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary16_div .dictionary16_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary16_div .dictionary16_div_text {
+  margin-left: 120px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary16_div .dictionary16_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary17_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary17_div .dictionary17_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary17_div .dictionary17_div_text {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary17_div .dictionary17_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary18_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary18_div .dictionary18_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary18_div .dictionary18_div_text {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary18_div .dictionary18_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary19_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary19_div .dictionary19_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary19_div .dictionary19_div_text {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary19_div .dictionary19_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary20_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary20_div .dictionary20_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary20_div .dictionary20_div_text {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary20_div .dictionary20_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.dictionary21_div {
+  width: 850px;
+  height: 500px;
+  top: 250px;
+  left: 600px;
+  position: absolute;
+  display: none;
+}
+.dictionary21_div .dictionary21_div_img {
+  width: 50%;
+  border-radius: 5px;
+}
+.dictionary21_div .dictionary21_div_text {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dictionary21_div .dictionary21_div_text2 {
+  width: 400px;
+  margin-left: 20px;
+}/*# sourceMappingURL=main.css.map */
